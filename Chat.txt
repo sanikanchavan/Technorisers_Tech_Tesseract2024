@@ -1,0 +1,566 @@
+This document is for private circulation only,
+For T. Y. Computer 2023-24 CCEW students.
+
+Subject: Cloud Computing
+PLEASE refer TO ALL REFERENCES plus Study Material
+CIRCULATED.
+
+Feel free to use additional web sites/searches for
+understanding if required.
+
+ACKNOWLEDGEMENT
+• This presentation contains pictures, contents taken
+from multiple sources, authors and sites.
+• We would like to appreciate and thank the authors,
+artists and do not claim any of following work to be
+ours, but it has been compiled here to use for academic
+purpose only.
+
+Unit 3: Platform-as-a-Service (PaaS)
+• Introduction to Platform-as-a-Service (PaaS)
+• Data in Cloud: Relational Databases, NoSQL Databases,
+MongoDB, Big Data
+• Cloud File System: Hadoop Distributed File System (HDFS),
+HBase, Map-Reduce Model
+• Case Study- Google App Engine (GAE).
+
+Unit 3 – References
+• Rajkumar Buyya, Christian Vecchiola, S Thamarai Selvi,
+‘Mastering Cloud computing’, McGraw Hill.
+- Chapter 4 – PaaS, Chapter 9 – 9.2 GAE
+
+- Chapter 8 –
+- Section: Data clouds and “Big Data”
+- Section: NoSQL systems - also includes HBase
+
+Unit 3 - References
+- https://www.scnsoft.com/blog/big-data-visualization-techniques
+- https://www.ibm.com/cloud/learn/nosql-databases
+- https://searchdatamanagement.techtarget.com/definition/big-data
+
+Platform-as-a-Service (PaaS)
+
+Source: https://www.techrepublic.com/blog/data-center/how-cloudy-isyour-cloud-the-nist-offers-a-cloud-standard/
+
+Source: Internet
+
+Platform as a Service (PaaS)
+• Platform as a service (PaaS) is a cloud computing model where
+a third-party provider delivers hardware and software tools to
+users over the internet.
+• Usually, these tools are needed for application development.
+• All servers, storage, and networking can be managed by the
+enterprise or a third-party provider while the developers can
+maintain management of the applications.
+
+• Eliminates the complexity of selecting, purchasing,
+configuring, and managing hardware and software.
+
+Platform as a Service | PaaS
+
+1. Programming languages: Some popular programming languages provided by PaaS providers are Java,
+PHP, Ruby, Perl, and Go.
+2. Application frameworks: Some popular application frameworks provided by PaaS providers are
+Node.js, Drupal, Joomla, WordPress, Spring, Play, Rack, and Zend.
+3. Databases: PaaS providers provide various databases such as ClearDB, PostgreSQL, MongoDB, and
+Redis to communicate with the applications.
+4. Other tools: PaaS providers provide various other tools that are required to develop, test, and deploy
+the applications.
+
+Source: Internet
+
+Source: Internet
+
+Platform as a Service (PaaS)
+• Enable the consumer to deploy onto the cloud infrastructure
+consumer-created or acquired applications created using
+programming languages, libraries, services, and tools
+supported by the provider.
+• The consumer does not manage or control the underlying
+cloud infrastructure including network, servers, operating
+systems, or storage.
+• Consumer has control over the deployed applications and
+possibly configuration settings for the application-hosting
+environment.
+
+PaaS
+• PaaS offerings can include:
+- facilities for application design, application
+development, testing, and deployment
+- services such as team collaboration, web service
+integration, database integration, security, scalability,
+storage, persistence, state management, application
+versioning and developer community facilitation.
+
+Source: Rajkumar Buyya, Christian Vecchiola, S Thamarai Selvi, ‘Mastering
+Cloud computing’, McGraw Hill.
+
+Platform as a service
+● Platform-as-a-Service (PaaS) solutions provide a development and
+deployment platform for running applications in the cloud.
+They constitute the middleware on top of which applications are
+built.
+
+● Application management is the core functionality of the middleware.
+● PaaS implementations provide applications with a runtime
+environment and do not expose any service for managing the
+underlying infrastructure.
+● They automate the process of deploying applications to the
+infrastructure, configuring application components, provisioning and
+configuring supporting technologies such as load balancers and
+databases, and managing system change based on policies set by the
+user.
+
+Source: Rajkumar Buyya, Christian Vecchiola, S Thamarai Selvi, ‘Mastering
+Cloud computing’, McGraw Hill.
+
+Essential characteristics that identify a PaaS solution
+
+• Runtime framework
+• Abstraction
+
+• Automation
+• Cloud Services
+
+Runtime Framework
+• This framework represents the “software stack” of the
+PaaS model and the most intuitive aspect that comes to
+people’s minds when they refer to PaaS solutions.
+• The runtime framework executes end-user code according
+to the policies set by the user and the provider.
+
+Abstraction
+• PaaS solutions are distinguished by the higher level of
+abstraction that they provide.
+• Whereas in the case of IaaS solutions the focus is on
+delivering “raw” access to virtual or physical
+infrastructure, in the case of PaaS the focus is on the
+applications the cloud must support.
+• This means that PaaS solutions offer a way to deploy and
+manage applications on the cloud rather than a bunch of
+virtual machines on top of which the IT infrastructure is
+built and configured.
+
+Automation
+• PaaS environments automate the process of deploying
+applications to the infrastructure, scaling them by
+provisioning additional resources when needed.
+• This process is performed automatically and according to
+the SLA made between the customers and the provider.
+• This feature is normally not native in IaaS solutions, which
+only provide ways to provision more resources.
+
+Cloud Services
+• PaaS offerings provide developers and architects with
+services and APIs, helping them to simplify the creation
+and delivery of elastic and highly available cloud
+applications.
+• These services are the key differentiators among
+competing PaaS solutions and generally include specific
+components for developing applications, advanced
+services for application monitoring, management, and
+reporting.
+
+Google App Engine (GAE)
+
+Source: Internet
+
+Google App Engine
+● Google App Engine is a cloud computing Platform as a Service for
+developing and hosting web applications in Google-managed data
+centers.
+● App Engine is a fully managed, serverless platform for developing and
+hosting web applications at scale.
+● You can choose from several popular languages, libraries, and
+frameworks to develop your apps, and then let App Engine take care of
+provisioning servers and scaling your app instances based on demand.
+● Applications are sandboxed and run across multiple servers.
+
+Source: Internet
+
+Google App Engine Customers
+
+Source: Internet
+
+Source: Internet
+
+Google AppEngine (GAE) is hosted on
+Google’s infrastructure (Data centers).
+
+Source: Internet
+
+Google AppEngine
+
+
+
+
+Google AppEngine is a PaaS implementation that provides
+services for developing and hosting scalable Web
+applications.
+AppEngine is essentially a distributed and scalable
+runtime environment that leverages Google’s distributed
+infrastructure to scale out applications facing a large
+number of requests by allocating more computing
+resources to them and balancing the load among them.
+
+Google AppEngine
+
+
+
+
+
+
+The runtime is completed by a collection of services that
+allow developers to design and implement applications.
+Developers can develop applications in Java, Python, and
+Go, a new programming language developed by Google to
+simplify the development of Web applications.
+
+Application usage of Google resources and services is
+metered by AppEngine, which bills users when their
+applications finish their free quotas.
+
+9.2.1 Architecture and Core Concepts
+
+Source: Rajkumar Buyya, Christian Vecchiola, S Thamarai Selvi, ‘Mastering
+Cloud computing’, McGraw Hill.
+
+The example web application generates a weather report for a city that is entered by the user into a form
+and sends the weather report via email to either the currently logged-in user or a user-defined receiver.
+Source: https://cwiki.apache.org/confluence/display/CAMEL/Tutorial+for+Camel+on+Google+App+Engine
+
+Components of AppEngine Platform
+• Infrastructure
+• The run-time environment
+
+• The underlying storage
+• The set of scalable services that can be used to
+develop applications.
+
+9.2.1.1 Infrastructure
+
+Infrastructure
+• AppEngine hosts Web applications, and its primary function is
+to serve users requests efficiently.
+• To do so, AppEngine’s infrastructure takes advantage of many
+servers available within Google datacenters.
+
+• For each HTTP request, AppEngine locates the servers hosting
+the application that processes the request, evaluates their
+load, and, if necessary, allocates additional resources (i.e.,
+servers) or redirects the request to an existing server.
+• The infrastructure is also responsible for monitoring
+application performance and collecting statistics on which the
+billing is calculated.
+
+GAE load balancing
+
+Source: Internet
+
+9.2.1.2 Run-time Environment
+
+Sandboxing
+• One of the major responsibilities of the runtime
+environment is to provide the application environment
+with an isolated and protected context in which it can
+execute without causing a threat to the server and
+without being influenced by other applications.
+• In other words, it provides applications with a sandbox.
+
+Sandboxing
+
+
+
+
+If an application tries to perform any operation that is
+considered potentially harmful, an exception is thrown
+and the execution is interrupted.
+Some of the operations that are not allowed in the
+sandbox include writing to the server’s file system;
+accessing computer through network besides using Mail,
+UrlFetch, and XMPP; executing code outside the scope of
+a request, a queued task, and a cron job; and processing a
+request for more than 30 seconds.
+
+Typical website development in Java –
+Such applications can run on GAE
+
+Source: Internet
+
+Source: https://www.slideshare.net/softwarepark/gae-13700693
+
+ACKNOWLEDGEMENT
+• This presentation contains pictures, contents taken
+from multiple sources, authors and sites.
+• We would like to appreciate and thank the authors,
+artists and do not claim any of following work to be
+ours, but it has been compiled here to use for academic
+purpose only.
+
+9.2.1.3 Storage
+
+Static file servers
+•
+
+Web applications are composed of dynamic and static
+data.
+
+•
+
+Static data often are mostly constituted of the
+components that define the graphical layout of the
+application (CSS files, plain HTML files, JavaScript files,
+images, icons, and sound files) or data files.
+
+•
+
+These files can be hosted on static file servers, since they
+are not frequently modified.
+
+•
+
+Such servers are optimized for serving static content.
+
+DataStore
+
+
+
+
+
+
+
+
+
+DataStore is a service that allows developers to store semistructured data. The service is designed to scale and
+optimized to quickly access data.
+DataStore is based on Bigtable.
+Google Cloud Datastore is a NoSQL document database, and
+compliments App Engine through automatic scaling, high
+performance, and ease of application development.
+Google Cloud Datastore is a schemaless database for storing
+non-relational data.
+DataStore also provides facilities for creating indexes on
+data and to update data within the context of a transaction.
+Indexes are used to support and speed up queries.
+
+DataStore
+
+Source: https://medium.com/@lgertel/google-app-engine-e-cloud-datastore-8af86a7b55fd
+
+Google Cloud Storage
+• It is a RESTful online file storage web service for storing and
+accessing data on Google Cloud Platform infrastructure.
+• It is an Infrastructure as a Service (IaaS), comparable to
+Amazon S3 online storage service.
+• Google Storage stores objects (originally limited to 100 GiB,
+currently up to 5 TiB) that are organized into buckets (as S3
+does) identified within each bucket by a unique, userassigned key.
+
+• All requests are authorized using an access control list
+associated with each bucket and object.
+• Bucket names and keys are chosen so that objects are
+addressable using HTTP URLs.
+
+9.2.1.4 Application Services
+
+UrlFetch
+● App engine uses UrlFetch service to access other resources on the
+
+web by fetching URLs.
+● A script can use the UrlFetch service to issue HTTP and HTTPS
+requests and receive responses.
+
+
+
+
+
+
+Web 2.0 has introduced the concept of composite Web
+applications. Different resources are put together and
+organized as meshes within a single Web page.
+Meshes are fragments of HTML generated in different ways.
+They can be directly obtained from a remote server or
+rendered from an XML document retrieved from a Web
+service, or they can be rendered by the browser as the result
+of an embedded and remote component.
+
+The sandbox environment provides developers with the
+capability of retrieving a remote resource through
+HTTP/HTTPS by means of the UrlFetch service.
+
+Source: Internet
+
+Source: Internet
+
+MemCache
+
+
+
+
+
+
+AppEngine provides caching services by means of
+MemCache.
+This is a distributed in-memory cache that is optimized for
+fast access and provides developers with a volatile store
+for the objects that are frequently accessed. The caching
+algorithm implemented by MemCache will automatically
+remove the objects that are rarely accessed.
+The use of MemCache can significantly reduce the access
+time to data; developers can structure their applications
+so that each object is first looked up into MemCache and
+if there is a miss, it will be retrieved from DataStore and
+put into the cache for future lookups.
+
+MemCache
+
+Source: Internet
+
+Source: Internet
+
+Mail and instant messaging
+
+
+
+
+
+
+It is common to use email for following up with users
+about operations performed by the web application.
+Email can also be used to trigger activities in Web
+applications.
+To facilitate the implementation of such tasks, AppEngine
+provides developers with the ability to send and receive
+mails through Mail. The service allows sending email on
+behalf of the application to specific user accounts.
+
+Chatbots?
+
+
+
+
+
+
+AppEngine provides also another way to communicate
+with the external world: the Extensible Messaging and
+Presence Protocol (XMPP).
+
+Any chat service that supports XMPP, such as Google Talk,
+can send and receive chat messages to and from the Web
+application, which is identified by its own address.
+XMPP can be conveniently used to connect the Web
+application with chat bots.
+
+Account Management
+
+Source: Internet
+
+Account Management
+
+
+
+
+AppEngine simplifies account management by allowing
+developers to leverage Google account management by
+means of Google Accounts.
+The integration with the service also allows Web
+applications to offload the implementation of
+authentication capabilities to Google’s authentication
+system.
+
+Image Manipulation
+• Web applications render pages with graphics.
+• AppEngine allows applications to perform image resizing,
+rotation, mirroring, and enhancement by means of Image
+Manipulation, a service that is also used in other Google
+products.
+
+9.2.1.5 Compute services
+
+Task Queues
+• Task Queues allow applications to submit a task for a later
+execution.
+• This service is particularly useful for long computations
+that cannot be completed within the maximum response
+time of a request handler.
+• The service allows users to have up to 10 queues that can
+execute tasks at a configurable rate.
+
+Task Queues
+
+Source: Internet
+
+Cron jobs
+• It might be possible that the required operation needs to
+be performed at a specific time of the day, which does not
+coincide with the time of the Web request.
+• It is possible to schedule the required operation at the
+desired time by using the Cron Jobs service.
+• This service operates similarly to Task Queues but invokes
+the request handler specified in the task at a given time
+and does not re-execute the task in case of failure.
+• This behavior can be useful to implement maintenance
+operations or send periodic notifications.
+
+Cron jobs
+
+Source: https://comtronic.com.au/automation-with-cron-job-on-centos-8/
+
+9.2.2 Application Life Cycle
+
+9.2.2.1 Application Development and Testing
+
+Application Development and Testing
+• Developers can start building their Web applications on a
+local development server.
+• The development server simulates the AppEngine runtime
+environment by providing a mock implementation of
+DataStore, MemCache, UrlFetch, and the other services
+leveraged by Web applications.
+• Java SDK and Python SDK for development.
+
+9.2.2.2 Application Deployment and Management
+
+Application Deployment and Management
+
+
+
+
+Once the application has been developed and tested, it
+can be deployed on AppEngine with a simple click or
+command-line tool.
+Before performing such task, it is necessary to create an
+application identifier, which will be used to locate the
+application from the Web browser by typing the address:
+- http://<application-id>.appspot.com.
+
+Application Deployment and Management
+
+
+
+
+Once the application is uploaded, nothing else needs to
+be done to make it available. AppEngine will take care of
+everything.
+Developers can then manage the application by using the
+administrative console.
+
+Source: Internet
+
+Source: Internet
+
+Session tracking as a service by GAE
+
+Source: Internet
+
+Source: Internet
+
+ACKNOWLEDGEMENT
+• This presentation contains pictures, contents taken
+from multiple sources, authors and sites.
+• We would like to appreciate and thank the authors,
+artists and do not claim any of above work to be ours,
+but it has been compiled here to use for academic
+purpose only.
+
+
